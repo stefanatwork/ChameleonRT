@@ -18,7 +18,7 @@
 #include "render_embree_kernel.inl"
 
 RenderEmbree::RenderEmbree()
-    : sycl_device(rtcSYCLDeviceSelector),
+    : sycl_device(),
       sycl_context(sycl_device),
       sycl_queue(
           sycl_device,

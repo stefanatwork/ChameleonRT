@@ -19,7 +19,7 @@ template <typename T>
 inline usm_shared_allocator<T> make_usm_device_read_only_allocator(sycl::queue &queue)
 {
     return usm_shared_allocator<T>(queue,
-                                   {sycl::ext::oneapi::property::usm::device_read_only()});
+                                   {/*sycl::ext::oneapi::property::usm::device_read_only()*/});
 }
 
 template <typename T>

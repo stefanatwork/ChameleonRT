@@ -1,4 +1,5 @@
 #include <embree4/rtcore.h>
+#include <embree4/rtcore_scene.h>
 #include "../../util/texture_channel_mask.h"
 #include "disney_bsdf.h"
 #include "embree_utils.h"
